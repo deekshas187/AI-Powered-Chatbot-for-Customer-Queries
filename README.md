@@ -29,7 +29,9 @@ Impact:
 This project demonstrates hands-on experience in NLP, transformer-based models, and AI-driven customer service automation, making it a valuable addition to a portfolio or resume.
 
 code:
-responses = {
+
+  
+    responses = {
     "hi": "Hello! How can I help you today?",
     "hello": "Hi there! How can I assist you?",
     "products": "We offer AI tools for education, healthcare, and business.",
@@ -37,16 +39,14 @@ responses = {
     "bye": "Goodbye! Have a great day!",
     "hello": "How can i help you.",
     "thankyou": "Your Welcome.",
-}
-
-print("Chatbot: Hi! I'm your assistant. Type 'exit' to end the chat.")
-
-while True:
-    user_input = input("You: ").lower()  # take user input
-    if user_input == "exit":             # exit condition
-        print("Chatbot: Bye! Chat ended.")
-        break
-
+    }
+    print("Chatbot: Hi! I'm your assistant. Type 'exit' to end the chat.") 
+    while True:
+        user_input = input("You: ").lower()  # take user input
+        if user_input == "exit":             # exit condition
+            print("Chatbot: Bye! Chat ended.")
+            break
+        
     # Check if any keyword in responses matches user input
     found = False
     for key in responses:
