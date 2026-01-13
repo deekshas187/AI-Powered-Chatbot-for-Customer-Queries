@@ -1,2 +1,1 @@
-# AI-Voice-Note-Summarizer
-Converts audio voice notes to text and summarizes them using NLP.
+This project involves developing an AI-powered conversational chatbot capable of understanding and responding to user queries in real time. The chatbot uses natural language processing (NLP) and pretrained transformer models (DialoGPT) to provide human-like responses, making it suitable for customer support, FAQs, and interactive web or mobile applications.
